@@ -1,0 +1,12 @@
+[package]
+name        = "adaptor-extras"
+description = "An incubator for Java interop functions for Flix"
+version     = "0.1.0"
+flix        = "0.75.3"
+license     = "Apache-2.0"
+authors     = ["Stephen Tetley <stephen.tetley@gmail.com>"]
+
+[dependencies]
+
+
+[mvn-dependencies]
