@@ -38,6 +38,15 @@ pub mod JavaInterop.AdaptorExtras2 {
         }
 
 
+    pub def guarded(f: Unit -> a \ ef): a \ ef + Fail = 
+        try {
+            let ans = f();
+            Fail.returnNotNull(ans)
+        } catch  {
+            case ex : JException => Fail.report(ex.getMessage())
+        }
+
+
     pub def op(x: a, f: ToJava.Out[a] -> ToFlix.In[ans] \ ef + ToJava.Aef[a] + ToFlix.Aef[ans]): ans \ ef + Fail + ToJava.Aef[a] + ToFlix.Aef[ans] with ToJava[a], ToFlix[ans] = 
         try {
             let x1 = ToJava.toJava(x);

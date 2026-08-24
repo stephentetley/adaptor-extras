@@ -1,3 +1,6 @@
+### v0.2.1
+   Added `guarded` combinator.
+
 ### v0.2.0
    Added `effect-extras` dependency and versions of the combinators 
      that use the `Fail` effect.
