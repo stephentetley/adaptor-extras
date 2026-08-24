@@ -16,7 +16,8 @@
 
 
 // This is a trial module. The functions here are experiments to see
-// if the make writing Java invoking code significantly more succinct.
+// if the make writing code that invokes Java significantly more succinct.
+
 
 
 pub mod JavaInterop.AdaptorExtras {
