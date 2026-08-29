@@ -1,5 +1,8 @@
-### v0.2.1
+### v0.3.0
    Added `guarded` combinator.
+   Added arity versions of `op` and `extract` up to 7.
+   Changed module names - `AdaptorExtras` => `AdaptorUnchecked`, 
+     `AdaptorExtras2` => `AdaptorChecked`.
 
 ### v0.2.0
    Added `effect-extras` dependency and versions of the combinators 

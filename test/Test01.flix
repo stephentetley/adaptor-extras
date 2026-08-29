@@ -3,7 +3,7 @@
 pub mod Test01 {
 
     use Assert.{assertEq}
-    use JavaInterop.AdaptorExtras
+    use JavaInterop.AdaptorUnchecked
 
     import java.time.{LocalDate => JLocalDate}
 
@@ -24,12 +24,12 @@ pub mod Test01 {
     }
 
     def printFlixLocalDate(d: FlixLocalDate): Unit \ IO = 
-        let s = AdaptorExtras.extract(d, d1 -> unsafe IO { d1.toString() });
+        let s = AdaptorUnchecked.extract(d, d1 -> unsafe IO { d1.toString() });
         println(s)
 
     @Test
     pub def test01(): Unit \ Assert + IO =
-        let ans: FlixLocalDate = AdaptorExtras.of(() -> JLocalDate.now());
+        let ans: FlixLocalDate = AdaptorUnchecked.of(() -> JLocalDate.now());
         printFlixLocalDate(ans);
         assertEq(expected = (), ())
 
