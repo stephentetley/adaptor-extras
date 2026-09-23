@@ -1,11 +1,14 @@
+### v0.4.0
+   Updated to use package mounts.
+
 ### v0.3.0
-   Added `guarded` combinator.
+   Added `guarded` function.
    Added arity versions of `op` and `extract` up to 7.
    Changed module names - `AdaptorExtras` => `AdaptorUnchecked`, 
      `AdaptorExtras2` => `AdaptorChecked`.
 
 ### v0.2.0
-   Added `effect-extras` dependency and versions of the combinators 
+   Added `effect-extras` dependency and versions of the functions 
      that use the `Fail` effect.
 
 ### v0.1.0
