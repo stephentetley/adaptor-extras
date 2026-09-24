@@ -1,5 +1,6 @@
 ### v0.4.0
    Updated to use package mounts.
+   Added `InteropErr` exception type.
 
 ### v0.3.0
    Added `guarded` function.
