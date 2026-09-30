@@ -3,7 +3,7 @@
 pub mod Test01 {
 
     use Assert.{assertEq}
-    use JavaInterop.AdaptorUnchecked
+    use AdaptorExtras.AdaptorUnchecked
 
     import java.time.{LocalDate => JLocalDate}
 

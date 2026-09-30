@@ -1,3 +1,6 @@
+### v0.5.0
+   Changed module naming - top level namespace is now `AdaptorExtras`.
+
 ### v0.4.0
    Updated to use package mounts.
    Added `InteropErr` exception type.

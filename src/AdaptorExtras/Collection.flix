@@ -9,7 +9,7 @@
 // This is a trial module. The functions here are experiments to see
 // if the make writing code that invokes Java significantly more succinct.
 
-pub mod JavaInterop.AdaptorExtras.Collection {
+pub mod AdaptorExtras.Collection {
 
     import java.util.{Iterator => JIterator}
     import java.lang.{Iterable => JIterable}

@@ -11,7 +11,7 @@
 
 
 
-pub mod JavaInterop.AdaptorUnchecked {
+pub mod AdaptorExtras.AdaptorUnchecked {
 
     import java.lang.{Exception => JException}
 

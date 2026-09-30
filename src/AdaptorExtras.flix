@@ -6,8 +6,9 @@
  */
 
 
-pub mod JavaInterop {
+pub mod AdaptorExtras {
 
+    use ee::EffectExtras.Fail
 
     pub enum InteropErr with Eq, Order, ToString {
         case NullArg
@@ -15,6 +16,8 @@ pub mod JavaInterop {
         case Exception(String)
     }
 
+    pub def reportException(msg: String): a \ Fail[InteropErr] = 
+        Fail.report(InteropErr.Exception(msg))
+    
     
 }
-

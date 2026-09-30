@@ -12,10 +12,10 @@
 // The original functions are more efficient if we know the Java they 
 // invoke won't fail
 
-pub mod JavaInterop.AdaptorChecked {
+pub mod AdaptorExtras.AdaptorChecked {
 
     use ee::EffectExtras.Fail.Fail
-    use JavaInterop.InteropErr
+    use AdaptorExtras.InteropErr
     
     import java.lang.{Exception => JException}
 
