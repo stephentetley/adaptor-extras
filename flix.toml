@@ -1,12 +1,12 @@
 [package]
 name        = "adaptor-extras"
 description = "An experiment with adaptor functions for Flix interop with Java"
-version     = "0.4.0"
+version     = "0.5.0"
 flix        = "0.77.0"
 license     = "Apache-2.0"
 authors     = ["Stephen Tetley <stephen.tetley@gmail.com>"]
 
 [dependencies]
-"github:stephentetley/effect-extras" = { version = "0.5.0", security = "unrestricted", mount = "ee" }
+"github:stephentetley/effect-extras" = { version = "0.6.0", security = "unrestricted", mount = "ee" }
 
 [mvn-dependencies]
