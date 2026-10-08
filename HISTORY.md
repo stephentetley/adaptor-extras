@@ -1,3 +1,6 @@
+### v0.6.0
+   Updated to use the new style package definition.
+
 ### v0.5.0
    Changed module naming - top level namespace is now `AdaptorExtras`.
 
