@@ -19,5 +19,6 @@ pub mod AdaptorExtras {
     pub def reportException(msg: String): a \ Fail[InteropErr] = 
         Fail.report(InteropErr.Exception(msg))
     
+    pub def proxyInteropErr(): Proxy[InteropErr] = Proxy.Proxy
     
 }

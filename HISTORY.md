@@ -1,3 +1,6 @@
+### v0.6.1
+   Updated dependencies.
+   
 ### v0.6.0
    Updated to use the new style package definition.
 

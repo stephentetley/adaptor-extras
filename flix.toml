@@ -1,9 +1,9 @@
 [package]
-version     = "0.6.0"
+version     = "0.6.1"
 flix        = "0.76.2"
 repository  = "github:stephentetley/adaptor-extras"
 
 [dependencies]
-"github:stephentetley/effect-extras" = { version = "0.7.0", security = "unrestricted", mount = "ee" }
+"github:stephentetley/effect-extras" = { version = "0.8.0", security = "unrestricted", mount = "ee" }
 
 [mvn-dependencies]
